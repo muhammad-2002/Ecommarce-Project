@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+.logo a{
+    font-size: 2rem;
+    color: #2f2e41;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+.searchArea{
+    position: fixed;
+    right: 90px;
+	top: 50px;
+	width:170px;
+	height: 45px;
+    background-color: #fff;
+    display: flex;
+	justify-content:center;
+	align-items: center;
+
+    border:1px solid rgba(167, 158, 245, 0.1);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    border-radius: 10% 10% 10% 10% /  50% 50% 50% 50%;
+    z-index: 1;
+}
+.searchbox input{
+    width: 90px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+	color: #1F1F1F;
+    padding: 0px 10px;
+    font-size: 1rem;
+}
+.searchbox input::placeholder{
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight:400;
+    color: #1D1D1D;
+    letter-spacing: 1px;
+}
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.section1 img{
+    height: 300px;
+}
+.section1button{
+    position: absolute;
+    left:90%;
+    top: 50%;
+    transform: translate(-90%,-50%);
+}
+.color{
+    color:	#7A72FF
+}
+.section1button h1,h2{
+    font-family: Roboto;
+    font-weight: 600;
+     color:#3D3D4A;
+     font-size: 4rem;
+     line-height: 60px;
+     margin: 0px;
+     text-transform: uppercase;
+     text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+	letter-spacing: 3px;
+}
+.section1button h1{
+    letter-spacing: 30px;
+}
+.section1button .btn{
+    margin-top: 20px;
+    background-color:  #2f2e41;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);;
+    letter-spacing: 0.5px;
+    font-family: calibri;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+}
+.section1button .btn:hover{
+    color:#FFFFFF;
+	background-color: #6e64ff;
+	transition: all ease 0.5s;
+}
+.iconArea{
+    position:fixed;
+	left: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius:20px ;
+    background-color: #FFFFFF ;
+    z-index: 1;
+    padding: 5px 0px;
+
+}
+.iconArea a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 15px;
+}
+.iconArea a i{
+	color:rgba(39,39,39,0.80);
+}
+.iconArea a:hover .fa-facebook-f{
+	color: #3b5998;
+}
+.iconArea a:hover .fa-twitter{
+	color: #00acee ;
+}
+.iconArea a:hover .fa-instagram{
+	color:  #3f729b ;
+}
+.iconArea a:hover .fa-youtube{
+ 
+	color: 	#FF0000;
+}
+
+
+/*product section start heare*/
+.productsection{
+width: 85%;
+box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+background-color: #FFFFFF;
+margin: 30px auto;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-size: 1000px;
+position: relative;
+padding: 40px 20px;
+margin-top: -60px;
+}
+.productsection  h3{
+font-size: 2rem;
+margin: 20px;
+color: #323543;
+font-family: Myriad pro;
+font-weight: 700;
+text-shadow: 2px 2p 10px rgba(0,0,0 / 5%);
+letter-spacing: 2px;
+text-align: center;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.productbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 30px;
+    position: relative;
+
+}
+.productbox img{
+    height: 200px;
+}
+.productbox p{
+    color: #4d4d4d70;
+    font-size: 1rem;
+    font-family: Myriad pro;
+    letter-spacing: 0.5;
+    padding: 5px;
+}
+.productbox a{
+    color: #2c2c2c;
+    font-family: poppins;
+    font-size: 1rem;
+}
+.Baybtn{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2f2e41 ;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	font-family: calibri;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	font-size: 1rem;
+    color:#FFFFFF ;
+    animation: fade 0.2s;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%); 
+    display: none;
+    background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+}
+.productbox:hover .Baybtn{
+    display: flex;
+
+}
+.productbox:hover{
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+	background-color:#FFFFFF;
+    border-radius: 10px;
+}
+.productbox:hover a:last-child{
+    color: #fff;
+    transition: all ease 0.3s
+}
+
+
+/*product section end heare*/
+
+/*about section starts heare*/
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+.abouttextArea{
+    width: 40%;
+    height: 500px;
+    font-family: Myriad pro;
+}
+.abouttextArea img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.abouttextArea h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333333;
+    margin: 0px;
+}
+.abouttextArea h4{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 10px;
+}
+.abouttextArea p{
+    color: #bdbdbd;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+/*about section end heare*/
+.searchx{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchx h3{
+    font-size: 2rem; 
+    color: rgb(56, 56, 56);
+    }
+.searchboxx{
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 6% 6% 6% 6% /50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+.searchboxx input{
+width: 100%;
+outline: none;
+border: none;
+height: 40px;
+background-color: transparent;
+}
+.searchboxx .notificationbutton{
+    height: 40px;
+    background-color: #202020;
+    color: #FFFFFF;
+    width: 120px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.searchboxx .notificationbutton:hover{
+    background-color: #3b5998;
+    transition: ease-in-out;
+}
+.footer{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+/* Responsive for mobile */
+
+
+@media(max-width:768px){
+    .searchx h1{
+        font-size: 1rem;
+      
+    }
+    .searchboxx{
+        width: 55%;
+        height: 40px;
+    }
+    .searchboxx .notificationbutton{
+        height: 35px;
+        width: 120px;
+
+    }
+    .logo{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background-color: #3f729b;
+        padding: 3px 12px;
+        border-radius: 10px;
+        
+        
+    }
+    .logo a{
+        font-size: 2.1rem;
+        margin: 0px auto;
+        color: #fff;
+    }
+    .searchArea{
+        width:140px;
+        height: 40px;
+        position: fixed;
+        top: 70px;
+        right:42px;
+        
+    }
+    .searchArea .searchbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    }
+    .section1 img{
+        position: absolute;
+        top: 120px;
+        height: 250px;
+    }
+    .section1button h1,h2 {
+            font-size: 3rem;}
+            .section1button h1{
+                letter-spacing: 25px;
+                margin-right: 20px;
+            }
+            .productsection{
+                margin-top: 200px;
+            }
+    }
